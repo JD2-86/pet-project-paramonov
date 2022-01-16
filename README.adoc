@@ -1,0 +1,28 @@
+= Warehouse of people
+
+== Description
+
+in this project, a system for monitoring and accounting for goods in the warehouse is being developed. This should help in monitoring the product  to small, medium and large enterprises.
+
+=== What problem does this project solve or what does it bring to users?
+ * simple and convenient system of accounting and movement of goods;
+* access to the service/application from any device with Internet access (also available desktop version);
+* the ability to customize the application for the client.
+
+=== Potential users
+* sole proprietors;
+* logistics companies;
+* wholesale and retail stores.
+
+=== Similar applications
+* https://www.ekam.ru/[EKAM];
+* https://www.moysklad.ru/[«МойСклад»];
+* https://litebox.ru/[LiteBox];
+* https://1c.ru/rus/products/1c/predpr/torg77.htm[«1С: Торговля и склад»].
+
+=== Competitive advantages
+* delivery management functionality;
+* ease of learning for new employees;
+* availability of loyalty programs;
+* longer free period compared to peers (2 months);
+* finalization of paid subscription programs for a specific client.
