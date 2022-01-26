@@ -35,7 +35,8 @@ public class UserDaoImpl implements UserDao{
     public UserEntity findByEmail(String email) {
         SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
         Session currentSession = sessionFactory.getCurrentSession();
-        currentSession.createQuery("select username from UserEntity u where u.email = email");
-        return null;
+        UserEntity singleResult = currentSession.createQuery("select UserEntity from UserEntity u where u.email = email", UserEntity.class)
+                .getSingleResult();
+        return singleResult;
     }
 }
