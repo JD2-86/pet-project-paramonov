@@ -5,7 +5,7 @@
     <title>First JSP App</title>
 </head>
 <body>
-<h2>warehouse</h2>
+<h2> WAREHOUSE of PEOPLE</h2>
 <p>Today <%= new java.util.Date() %></p>
 </body>
 </html>
