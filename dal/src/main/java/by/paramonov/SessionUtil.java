@@ -1,4 +1,4 @@
-package by.paramonov.application.service;
+package by.paramonov;
 
 import org.hibernate.Session;
 

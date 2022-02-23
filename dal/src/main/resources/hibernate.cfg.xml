@@ -12,6 +12,6 @@
         <property name="hbm2ddl.auto">update</property>
         <property name="format_sql">true</property>
 
-        <mapping class="by.paramonov.application.entity.BaseEntity"/>
+        <mapping class="by.paramonov.entity.BaseEntity"/>
     </session-factory>
 </hibernate-configuration>

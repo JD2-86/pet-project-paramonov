@@ -1,4 +1,4 @@
-package by.paramonov.application.enums;
+package by.paramonov.enums;
 
 public enum Role {
     USER,

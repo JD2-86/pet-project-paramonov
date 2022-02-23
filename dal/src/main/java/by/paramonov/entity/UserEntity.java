@@ -1,6 +1,6 @@
-package by.paramonov.application.entity;
+package by.paramonov.entity;
 
-import by.paramonov.application.enums.Role;
+import by.paramonov.enums.Role;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

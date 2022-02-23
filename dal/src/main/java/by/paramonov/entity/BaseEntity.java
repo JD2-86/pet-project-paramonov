@@ -1,4 +1,4 @@
-package by.paramonov.application.entity;
+package by.paramonov.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

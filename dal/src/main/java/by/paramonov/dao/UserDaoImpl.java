@@ -1,6 +1,6 @@
-package by.paramonov.application.dao;
+package by.paramonov.dao;
 
-import by.paramonov.application.entity.UserEntity;
+import by.paramonov.entity.UserEntity;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
