@@ -2,6 +2,8 @@
 
 http://ec2-3-71-80-94.eu-central-1.compute.amazonaws.com:8080/wh/[WH]
 
+https://miro.com/app/board/uXjVOJBpulA=/?invite_link_id=138819981041[miro]
+
 == Description
 
 in this project, a system for monitoring and accounting for goods in the warehouse is being developed. This should help in monitoring the product  to small, medium and large enterprises.
