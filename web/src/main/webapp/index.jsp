@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>First JSP App</title>
+    <title>Your Warehouse [${warehouseOwner.getWarehouse()}]</title>
 </head>
 <body>
 <h2> WAREHOUSE of PEOPLE</h2>
