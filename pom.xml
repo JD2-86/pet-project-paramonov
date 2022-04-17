@@ -22,9 +22,13 @@
         <springframework.security.version>5.6.2</springframework.security.version>
         <springframework.boot.version>2.4.2</springframework.boot.version>
         <hibernate.version>5.6.5.Final</hibernate.version>
+        <jakarta.persistence.verson>3.0.0</jakarta.persistence.verson>
         <slf4j.version>1.7.36</slf4j.version>
         <log4j2.version>2.17.2</log4j2.version>
         <postgresql.version>42.3.3</postgresql.version>
+        <lombok.version>1.18.22</lombok.version>
+        <javax.servlet.version>4.0.1</javax.servlet.version>
+        <javax.servlet.jsp.version>2.3.3</javax.servlet.jsp.version>
     </properties>
 
     <dependencyManagement>
@@ -90,16 +94,29 @@
                 <version>${log4j2.version}</version>
             </dependency>
             <dependency>
-                <groupId>jakarta.persistence</groupId>
-                <artifactId>jakarta.persistence-api</artifactId>
-                <version>3.0.0</version>
-            </dependency>
-            <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>1.18.22</version>
+                <version>${lombok.version}</version>
                 <scope>provided</scope>
             </dependency>
+            <dependency>
+                <groupId>jakarta.persistence</groupId>
+                <artifactId>jakarta.persistence-api</artifactId>
+                <version>${jakarta.persistence.verson}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${javax.servlet.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet.jsp</groupId>
+                <artifactId>javax.servlet.jsp-api</artifactId>
+                <version>${javax.servlet.jsp.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -124,7 +141,7 @@
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
-                            <version>1.18.22</version>
+                            <version>${lombok.version}</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
