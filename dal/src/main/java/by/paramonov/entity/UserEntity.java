@@ -14,6 +14,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
+@AttributeOverride(name = "id", column = @Column(name = "user_id"))
 public class UserEntity extends BaseEntity {
     @Column(name = "first_name")
     private String firstname;
