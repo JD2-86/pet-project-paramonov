@@ -1,5 +1,6 @@
-package by.paramonov.dao;
+package by.paramonov.dao.impl;
 
+import by.paramonov.dao.UserDao;
 import by.paramonov.entity.UserEntity;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -7,7 +8,7 @@ import org.hibernate.cfg.Configuration;
 
 import java.util.UUID;
 
-public class UserDaoImpl implements UserDao{
+public class UserDaoImpl implements UserDao {
     @Override
     public UserEntity save(UserEntity userEntity) {
         SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
