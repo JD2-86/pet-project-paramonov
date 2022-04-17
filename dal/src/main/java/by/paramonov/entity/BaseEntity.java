@@ -1,9 +1,7 @@
 package by.paramonov.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.UUID;
 
@@ -11,8 +9,11 @@ import java.util.UUID;
 @Getter
 @Setter
 @MappedSuperclass
+@AllArgsConstructor
+@NoArgsConstructor
 public abstract class BaseEntity {
     @Id
     @GeneratedValue(generator = "uuid")
+    @Column(name = "id")
     private UUID id;
 }
